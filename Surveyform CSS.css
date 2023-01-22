@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://media.istockphoto.com/photos/futuristic-digital-block-chain-background-picture-id1212911887?b=1&k=20&m=1212911887&s=612x612&w=0&h=gXEH3M0b4zMvQzONRaU13ErOR6bgV0BCa101skIr27Y=);
+    background-size: cover;
+    background-attachment: fixed;  
+    color: rgb(255, 255, 255); 
+    background-color: rgb(158, 168, 101);
+    background-blend-mode: multiply;
+    font-size: 1.1em;
+    font-family: 'poppins' , 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.heading{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+}
+#head{
+    font-size: 2.6em;
+}
+#subheading{
+    font-size: 18px;
+    margin-top: 10px;
+}
+#content1{
+    width: 90%;
+    margin: auto;
+}
+form{
+    background-color: rgba(139, 86, 155, 0.7);
+    padding-top: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54%;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 60px;
+}
+form .box{
+    width: 98.5%;
+    height: 2.8em;
+    position: relative;
+    bottom: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+#option1 select{
+    width: 98.5;
+    height: 2.7em;
+    position: relative;
+    bottom: 10px;
+    border-radius: 5px;
+    border: 0;
+}
+#content2{
+    margin-top: 5px;
+}
+#content2 textarea{
+    width: 98.5%;
+    height: 125px;
+    position: relative;
+    bottom: 17px;
+}
+button{
+    width: 98.5%;
+    height: 3em;
+    top: 11px;
+    background-color: rgb(117, 112, 112);
+    border: 30px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 1x0px;
+    cursor: pointer;
+}
+textarea::placeholder{
+    font-size: 1.2em;
+    position: relative;
+    top: 8px;
+    left: 20px;
+    width: 70%;
+}
+input::placeholder{
+    font-size: 1.1em;
+    position: relative;
+    left: 10px;
+    width: 100%;
+    font-weight: 500;
+}
+input.larger{
+    width: 20px;
+    height: 20px;
+}
+@media screen and (max-width: 600px){
+    form{
+        width: 100%;
+        margin: auto;
+
+    }
+    
+}
