@@ -48,6 +48,7 @@ form .box{
     bottom: 10px;
     border: 0;
     border-radius: 5px;
+    background-color: blueviolet;
 }
 #option1 select{
     width: 98.5;
